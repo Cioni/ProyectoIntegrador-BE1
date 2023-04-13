@@ -1,0 +1,52 @@
+table.listado {
+  color: black;
+  width: 80%;
+  border-collapse: collapse;
+}
+
+table.listado td,
+table.listado th {
+  color: #000;
+  border: 1px solid #555555;
+  padding: 7px 7px;
+}
+
+table.listado tbody td {
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+table.listado tr:nth-child(even) {
+
+}
+
+table.listado thead {
+
+}
+
+table.listado thead th {
+  font-size: 19px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: left;
+  border-left: 2px solid #45009f;
+}
+
+table.listado thead th:first-child {
+  border-left: none;
+}
+
+
+table.listado tfoot td {
+  font-size: 13px;
+}
+
+table.listado tfoot .links a {
+  display: inline-block;
+
+  color: #ffffff;
+  padding: 2px 8px;
+  border-radius: 5px;
+}

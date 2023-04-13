@@ -1,0 +1,40 @@
+@import url("header.css");
+@import url("forms.css");
+
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  height: 100vh;
+  display:flex;
+  flex-direction:column;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+
+.informacion {
+  width: 100%;
+  margin-top: 4rem;
+  margin-left: 20%;
+}
+
+.display-none {
+  display: none;
+}
+
